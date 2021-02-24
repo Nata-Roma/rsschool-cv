@@ -14,11 +14,11 @@ body {
 }
 
 .app {
-  /* text-align: center; */
   margin: 0 auto;
   max-width: 120rem;
   background-color: #f1f1f1;
   padding: .5rem 2rem;
+  position: relative;
 }
 
 h1 {
@@ -31,6 +31,15 @@ h3 {
 
 p {
   font-size: 1.7rem;
+}
+
+.avatar {
+  position: absolute;
+  right: 5rem;
+  top: 2rem;
+  display: block;
+  width: 150px;
+  /* height: 150px; */
 }
 
 .block-container {
@@ -73,15 +82,32 @@ li {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1700px) {
   html {
     font-size: 15px;
+  }
+
+  .avatar {
+    width: 170px;
+    top: 2rem;
+    right: 5rem;
   }
 }
 
 @media (max-width:768px) {
   .app {
     max-width: 760px;
+  }
+
+  .avatar {
+    width: 120px;
+  }
+}
+
+
+@media (max-width:620px) {
+  .avatar {
+    display: none;
   }
 }
 
