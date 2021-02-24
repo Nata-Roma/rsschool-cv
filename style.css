@@ -33,6 +33,12 @@ p {
   font-size: 1.7rem;
 }
 
+code {
+  position: relative;
+  left: -9rem;
+  font-size: 1.4rem;
+}
+
 .avatar {
   position: absolute;
   right: 5rem;
@@ -109,15 +115,28 @@ li {
   .avatar {
     display: none;
   }
+
+  code {
+    font-size: 1.2rem;
+  }
 }
 
-@media (max-width:425px) {
+@media (max-width:440px) {
+  html {
+    font-size: 8px;
+  }
+
   .app {
     max-width: 420px;
   }
 
   .block-container {
     flex-direction: column;
+  }
+
+  code {
+    left: -8rem;
+    font-size: 1.1rem;
   }
 }
 
