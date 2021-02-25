@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Natalia Romashko - CV</title>
+</head>
+
+<body>
+  <div class="app">
+    <figure>
+      <img class="avatar" src="avatar.jpeg" title="Avatar" alt="avatar">
+    </figure>
+    <header>
+      <h1>Natalia Romashko</h1>
+    </header>
+    <main>
+      <section>
+        <h3>Contacts:</h3>
+        <ul>
+          <li>Address: Limassol, Cyprus</li>
+          <li>Mobile phone: +357 99 310 676 (WhatsApp available)</li>
+          <li>LinkedIn: 
+            <a href="https://www.linkedin.com/in/natalia-romashko-289b721b2/" target="_blank">
+              https://www.linkedin.com/in/natalia-romashko-289b721b2/
+            </a>
+          </li>
+          <li>Github: 
+            <a href="https://github.com/Nata-Roma" target="_blank">
+              https://github.com/Nata-Roma
+            </a>
+          </li>
+          <li>Email: sharkellgm@gmail.com</li>
+          <li>No work permit required in Cyprus</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Short description:</h3>
+        <p>Building state-of-the-art, easy to use, user-friendly websites and applications is truly a passion of mine
+          and I am confident I would be an excellent addition to your company.</p>
+        <p>I actively seek out new technologies and stay up-to-date on industry trends and advancements, and also
+          consider becoming Full Stack Developer.</p>
+      </section>
+      <section>
+        <h3>Key skills and competencies</h3>
+        <ul>
+          <li>Front End Web Development using ReactJS, VanillaJS.</li>
+          <li>Working with useReducer() and useContext() hooks as a Redux replacement.</li>
+          <li>Front side binding with server side data via fetch requests or using third party libraries.</li>
+          <li>Knowledge of responsive and cross-browser layout, html & css, Sass-preprocessor.</li>
+          <li>Basic knowledge of Material-UI, GraphQL, NodeJS.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Code example</h3>
+        <p>Rendering Filters component of todo app</p>
+        <pre>
+          <code>
+            import React from 'react';
+            import PropTypes from 'prop-types';
+
+            const StatusFilters = ({clickAll, clickLiked}) =&gt; {
+
+              return (
+                &lt;div className='btn-group'&gt;
+                  &lt;button 
+                        type='button' 
+                        className='btn btn-info' 
+                        onClick={clickAll} 
+                        data-testid='searchAll'&gt;
+                    All
+                  &lt;/button&gt;
+                  &lt;button type='button' 
+                        className='btn btn-outline-secondary' 
+                        onClick={clickLiked} 
+                        data-testid='searchLiked'&gt;
+                    Liked
+                  &lt;/button&gt;
+                &lt;/div&gt;
+              );
+            };
+
+            StatusFilters.propTypes = {
+              clickAll: PropTypes.func,
+              clickLiked: PropTypes.func,
+            };
+
+            export default StatusFilters;
+          </code>
+        </pre>
+      </section>
+      <section>
+        <h3>Trainings and courses</h3>
+        <ul>
+          <li>Build an Instagram Clone:
+            <a href="https://react12.io/instagram-clone/">https://react12.io/instagram-clone/</a>
+          </li>
+          <li>React - The Complete Guide (incl. Hooks, React Router, Redux):
+            <a
+              href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">https://www.udemy.com/course/react-the-complete-guide-incl-redux/</a>
+          </li>
+          <li>Make 20 React Apps:
+            <a href="https://20reactapps.com/">https://20reactapps.com//</a>
+          </li>
+          <li>ES6 Javascript: The Complete Developer's Guide:
+            <a
+              href="https://www.udemy.com/course/javascript-es6-tutorial/">https://www.udemy.com/course/javascript-es6-tutorial/</a>
+          </li>
+
+        </ul>
+      </section>
+      <section>
+        <h3>Education</h3>
+        <p>Vyatka State Technical University (Russia), electronic engineer.</p>
+      </section>
+      <section>
+        <h3>Languages</h3>
+        <ul>
+          <li>Russian - native</li>
+          <li>English - fluent</li>
+          <li>Greek - basic</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Additional skills</h3>
+        <p>Adobe Creative - Photoshop, Illustrator</p>
+      </section>
+    </main>
+    <footer>
+      <div class="divider"></div>
+      <p>Please do not hesitate to contact me</p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
