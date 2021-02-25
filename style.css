@@ -45,27 +45,6 @@ code {
   top: 2rem;
   display: block;
   width: 150px;
-  /* height: 150px; */
-}
-
-.block-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.block-container__item {
-  text-align: left;
-  margin: 0 auto 1rem 1rem;
-}
-
-.item-left {
-  flex-grow: 1;
-  min-width: 15rem;
-  text-decoration: underline;
-}
-
-.item-right {
-  flex-grow: 20;
 }
 
 a {
@@ -144,10 +123,6 @@ footer {
 
   .app {
     max-width: 420px;
-  }
-
-  .block-container {
-    flex-direction: column;
   }
 
   code {
